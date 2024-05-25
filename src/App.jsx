@@ -1,9 +1,18 @@
 import "./App.css";
+import Body from "./component/Body";
+import Head from "./component/Head";
+import { Provider } from "react-redux";
+import store from "./utils/store";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold underline text-gray-400">Hello world!</h1>
+      <Provider store={store}>
+        <div>
+          <Head />
+          <Body />
+        </div>
+      </Provider>
     </>
   );
 }

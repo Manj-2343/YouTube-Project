@@ -47,7 +47,7 @@ const Head = () => {
   return (
     <div className="grid grid-flow-col p-5 m-2 shadow-md">
       {/* <pre>{JSON.stringify(searchQuery)}</pre> */}
-      <div className="flex col-span-1 gap-5">
+      <div className="flex col-span-1 gap-5 items-center">
         <img
           src="https://up.yimg.com/ib/th?id=OIP.3oWC_8moLxKDTYSSdd_ELAHaHa&pid=Api&rs=1&c=1&qlt=95&w=123&h=123"
           alt="menu"
@@ -91,7 +91,7 @@ const Head = () => {
           </div>
         )}
       </div>
-      <div className="col-span-1">
+      <div className="col-span-1 mt-1">
         <img
           src="https://up.yimg.com/ib/th?id=OIP.k7dE2dftQijg3KbpTyIObAHaHa&pid=Api&rs=1&c=1&qlt=95&w=120&h=120"
           alt="userIcon"
